@@ -197,6 +197,8 @@ a {
     */
   .is-card-center {
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .card--border-left {
@@ -223,5 +225,13 @@ a {
   .right-raduis-10 {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+  }
+
+  body {
+    height: 100vh;
+  }
+
+  main {
+    height: inherit;
   }
 }
